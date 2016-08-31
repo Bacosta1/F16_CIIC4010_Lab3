@@ -50,7 +50,7 @@ import javax.swing.JPanel;
 //	                        p.addPoint(x1 + 15, y1 + 45);
 //	                        p.addPoint(x1 + 15, y1 + 25);
 //	                        g.setColor(Color.YELLOW);
-//	                        g.fillPolygon(p);
+//	                        g.fillPolygon(p) ;
 	                        // Draw a second polygon
 	                        Polygon p2 = new Polygon();
 	                        p2.addPoint(x1 + 25, y1 + 73);
