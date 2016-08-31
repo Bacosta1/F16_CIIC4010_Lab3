@@ -30,7 +30,7 @@
 	                        g.drawRect(x1, y1, width, height);
 	                      //Draw a border
 	                        g.setColor(Color.BLUE);
-	                        g.drawRect(x1 + 5, y1 + 5, width - 10, height -10);
+	                        g.drawRect(x1 + 6, y1 + 6, width - 10, height -10);
 	            }
 	}
 
