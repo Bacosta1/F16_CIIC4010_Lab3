@@ -36,7 +36,7 @@
 //	                        g.setColor(Color.RED);
 //	                        g.drawLine(x1, y2, x2, y1);
 	                        g.setColor(Color.LIGHT_GRAY);
-	                        g.fillOval(225, 195, 55, 55);//(x1, y1, width, height);
+	                        g.fillOval(222, 196, 55, 55);//(x1, y1, width, height);
 	            }
 	}
 
