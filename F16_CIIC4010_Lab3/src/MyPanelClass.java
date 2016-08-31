@@ -25,12 +25,18 @@
 	                        //Paint the background
 	                        g.setColor(Color.PINK);
 	                        g.fillRect(x1, y1, width + 1, height + 1);
-	                        //Draw a border
-	                        g.setColor(Color.YELLOW);
-	                        g.drawRect(x1, y1, width, height);
-	                      //Draw a border
-	                        g.setColor(Color.BLUE);
-	                        g.drawRect(x1 + 6, y1 + 6, width - 10, height -10);
+//	                        Draw a border
+//	                        g.setColor(Color.YELLOW);
+//	                        g.drawRect(x1, y1, width, height);
+//	                        Draw a border
+//	                        g.setColor(Color.BLUE);
+//	                        g.drawRect(x1 + 6, y1 + 6, width - 10, height -10);
+//	                        g.setColor(Color.WHITE);
+//	                        g.drawLine(x1, y1, x2, y2);
+//	                        g.setColor(Color.RED);
+//	                        g.drawLine(x1, y2, x2, y1);
+	                        g.setColor(Color.LIGHT_GRAY);
+	                        g.fillOval(225, 195, 55, 55);//(x1, y1, width, height);
 	            }
 	}
 
