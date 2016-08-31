@@ -5,7 +5,9 @@ public class Lab3Exercises {
 		JFrame Bryan = new JFrame("Hello, world!");
 		Bryan.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		Bryan.setLocation(865, 420);
-		Bryan.setSize(200, 200);
+		Bryan.setSize(500, 500);
+		MyPanelClass myPanel = new MyPanelClass();
+        Bryan.getContentPane().add(myPanel);
 		Bryan.setVisible(true);
 	}
 }
